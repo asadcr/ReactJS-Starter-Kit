@@ -1,0 +1,26 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width : 100%;
+    font-family: HelveticaNeue;
+}
+
+#map {
+    width: calc(100%);
+}
+  
+#content, #content .app-content, #content .app-content .col {
+    height: 100%;
+}
+
+#content .app-content .col {
+    padding: 0;
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+}
+
+@import './map/map.css';
+@import "./common/topbar.css";

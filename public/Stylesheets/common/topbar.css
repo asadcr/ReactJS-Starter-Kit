@@ -1,0 +1,54 @@
+.topbar {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #cccccc;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .topbar .container-fluid {
+    padding: 0 35px;
+  }
+  
+  .topbar .logo {
+    height: 60px;
+    margin-top: 15px;
+  }
+  
+  .topbar .sign-info {
+    float: right;
+    font-weight: normal;
+    line-height: 90px;
+    font-size: 16px;
+    color: #132348;
+    cursor: pointer;
+  }
+  
+  .topbar .sign-info .username {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .topbar .sign-info .triangle {
+    padding-left: 7px;
+  }
+  
+  .topbar .menu {
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  .topbar .menu .logout {
+    cursor: pointer;
+    font-size: 14px;
+    color: #132348;
+    margin-top: 5px;
+  }
+  

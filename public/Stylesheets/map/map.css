@@ -1,0 +1,21 @@
+#map {
+    margin:0;
+    padding:0;
+    width : 100%;
+    height : calc(100% - 91px);
+  }
+  
+  #map .marker-container {
+    height: auto !important;
+    width: auto !important;
+  }
+  
+  #map .marker-container .dot.xs-size, #map .marker-container .dot.s-size,
+  #map .marker-container .dot.m-size, #map .marker-container .dot.l-size {
+    margin: 0;
+  }
+  
+  #map .marker-container .dot.focused {
+    margin: 0;
+  }
+  
